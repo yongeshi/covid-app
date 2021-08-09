@@ -6,9 +6,9 @@ On the second page, the user has access to the most up-to-date information on CO
 The app supports Geofencing. As the user travels into a new region, they would receive live updates on new covid developments in the area in the form of push notifications. Each time the user enters a new area, they will receive information about the severity of local cases. A region with importantly different COVID severity from the user’s previous location constitutes a “new area.”
 As the user travels throughout the day, the app tracks their path and provide relevant COVID data based on each location the user spent time in. The app will show data for locations the user spent time in, not where the user drove through. The user will be able to examine their past paths taken to 21 days in the past. Note that this feature will only become available if the user allows the app to track his or her location while not using the app. At any point, the user can delete all information stored on them if they desire. This app is fully functional without any account registration. <br><br><br>
 
-<img src="https://user-images.githubusercontent.com/54614988/128777343-5114c76b-54bf-4e57-b7a7-5c3b4fbe4513.PNG" width="300">
-
 <img src="https://user-images.githubusercontent.com/54614988/128774148-0148bb8c-acdf-4a90-a403-db12bbed6920.PNG" width="300">
+
+<img src="https://user-images.githubusercontent.com/54614988/128777343-5114c76b-54bf-4e57-b7a7-5c3b4fbe4513.PNG" width="300">
 
 <img src="https://user-images.githubusercontent.com/54614988/128774146-297706ab-094a-4116-ac62-a9e8ebee186c.PNG" width="300">
 
