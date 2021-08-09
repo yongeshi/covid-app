@@ -3,23 +3,29 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/map">
+    app:startDestination="@id/map">
 
     <fragment
         android:id="@+id/map"
         android:name="com.example.myapplication.ui.map.MapFragment"
         android:label="Map"
-        tools:layout="@layout/fragment_map" />
+        tools:layout="@layout/activity_maps" />
 
     <fragment
         android:id="@+id/news"
         android:name="com.example.myapplication.ui.news.NewsFragment"
         android:label="News"
-        tools:layout="@layout/fragment_news" />
+        tools:layout="@layout/activity_news" />
+
+    <fragment
+        android:id="@+id/tracking"
+        android:name="com.example.myapplication.ui.tracking.TrackingFragment"
+        android:label="Tracking" />
 
     <fragment
         android:id="@+id/setting"
         android:name="com.example.myapplication.ui.setting.SettingFragment"
-        android:label="Setting"
-        tools:layout="@layout/fragment_setting" />
+        android:label="Setting" />
+
+
 </navigation>

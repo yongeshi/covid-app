@@ -3,4 +3,25 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+
+    <string name="first_slide_title">Access to COVID map wherever your are</string>
+    <string name="second_slide_title">All your COVID related news in one spot</string>
+    <string name="third_slide_title">Automatically tracks location</string>
+    <string name="fourth_slide_title">You\'re in control</string>
+
+    <string name="first_slide_desc">Our map shows COVID severity of any place nearby or with-in the specified city. You can click on a city/neighborhood to display location related COVID information.</string>
+    <string name="second_slide_desc">You will able to view latest local COVID related news in the news page. </string>
+    <string name="third_slide_desc">If your location settings are enabled, the app will handle tracking for you. The app will send you COVID notifications, so you can get the latest COVID updates while on the move.</string>
+    <string name="fourth_slide_desc">Your travel history will be stored for up to 21 days. It\'s easy to delete your past location history, and you can turn off location tracking at any time.</string>
+
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="let_get_started">Lets Get Started</string>
+    <string name="NIGHT_MODE">1</string>
+    <string name="NIGHT">1</string>
+    <string name="BUTTON">2</string>
+    <string name="Night_Mode">1</string>
+    <string name="fetch_location">11</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

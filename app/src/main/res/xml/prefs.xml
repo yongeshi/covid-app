@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference
+        android:id="@+id/about"
+        android:title="About"
+        android:key="BUTTON"
+        android:summary="About the Team and App"
+        />
+
+    <PreferenceCategory
+        android:id="@+id/nightMode"
+        android:title="Enable Night Mode"
+        >
+
+        <CheckBoxPreference
+            android:title="Night Mode"
+            android:key="NIGHT"
+            android:defaultValue="false"
+            android:summaryOn="Night mode is activated"
+            android:summaryOff="Night mode is deactivated" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Screen Orientation">
+        <ListPreference
+            android:title="Orientation"
+            android:key="ORIENTATION"
+            android:entries="@array/items_name"
+            android:entryValues="@array/items_value"
+            android:defaultValue="false"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Notification">
+        <CheckBoxPreference
+            android:title="Notification On/Off"
+            android:key="NOTI"
+            android:defaultValue="false"
+            android:summaryOn="Notification is activated"
+            android:summaryOff="Notification is deactivated" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Location Sharing"
+        >
+        <CheckBoxPreference
+            android:title="Location Sharing On/Off"
+            android:key="fetch_location"
+            android:defaultValue="false"
+            android:summaryOn="Sharing is activated"
+            android:summaryOff="Sharing is deactivated" />
+    </PreferenceCategory>
+
+    <Preference
+        android:title="System Storage"
+        android:key="CACHE"
+        />
+
+    <EditTextPreference
+        android:title="Text Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:key="txtTitle"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditTextPreference
+        android:title="Text Body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:key="txtBody"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Preference
+        android:title="Send Notification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:key="notify"
+        android:layout_below="@+id/spinnerZodiac"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+
+
+
+</PreferenceScreen>

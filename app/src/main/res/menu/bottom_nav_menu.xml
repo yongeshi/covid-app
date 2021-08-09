@@ -12,6 +12,11 @@
         android:title="News" />
 
     <item
+        android:id="@+id/tracking"
+        android:icon="@drawable/ic_baseline_calendar_today_24"
+        android:title="Tracking History" />
+
+    <item
         android:id="@+id/setting"
         android:icon="@drawable/ic_baseline_settings_24"
         android:title="Setting" />

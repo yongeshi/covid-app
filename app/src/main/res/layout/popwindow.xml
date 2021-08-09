@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/android.R.id.list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pop_bg">
+
+    <TextView
+        android:id="@+id/pop_window"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="App Version Final Version
+        \n
+        \nTeam Member: Yifeng Yu, Cole Howard, Yo-Han Kang, Jonah Yamato, Yong Shin
+        \n
+        \nWhat new about the current version:
+        \n1. You can check the memory usage in the setting page.
+        \n2. You can share the app by clicking the sharing icon in the map page.
+        \n3. You can check the weather condition in the top of the news page.
+        \n4. You can send the notification to yourself in the setting page
+        \n5. You can go to the tracking page to check your location history by clicking on the calendar. "
+        android:textColor="#ffffff"
+
+        />
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+
+        >
+
+
+    </ListView>
+
+</LinearLayout>
